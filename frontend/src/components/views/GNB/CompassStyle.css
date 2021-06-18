@@ -1,0 +1,21 @@
+.compass {
+  background-color: #187fd9;
+  width: 100%;
+  padding-left: 5px;
+  font-family: 'light_p';
+}
+
+.compass button {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  margin-bottom: 0px;
+  font-size: 13px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.compass button:hover {
+  color: white;
+  text-shadow: 3px 2px 2px #1b1464;
+}

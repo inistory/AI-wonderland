@@ -1,0 +1,149 @@
+@font-face {
+  font-family: light_p_7;
+  src: url(../../../fonts/light_pixel-7.ttf);
+}
+
+@font-face {
+  font-family: sb_pixel_7;
+  src: url(../../../fonts/small_bold_pixel-7.ttf);
+}
+
+@font-face {
+  font-family: backto_1982;
+  src: url(../../../fonts/BACKTO1982.TTF);
+}
+
+@font-face {
+  font-family: mini_pixel_7;
+  src: url(../../../fonts/mini_pixel-7.ttf);
+}
+
+#intro-container-grid {
+  position: relative;
+  max-width: 375px;
+  height: 670px;
+  /* background-image: URL(images/intro/background_sky.png); */
+  background-size: 375px auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: #187fd9;
+  grid-template-rows: 1fr 2fr 5fr 2fr;
+}
+#intro-rabbit-img {
+  position: relative;
+  z-index: 2;
+  width: auto;
+  height: 200px;
+  left: -5%;
+  bottom: 80%;
+}
+
+#intro-title-text {
+  font-family: light_p_7;
+  color: #ffff;
+  font-size: 25px;
+  margin-bottom: 0px;
+  text-align: center;
+  text-shadow: 3px 2px 2px #14c5d9;
+}
+
+#intro-title-logo {
+  width: auto;
+  height: 40px;
+  margin-top: 100px;
+  margin-bottom: 5px;
+  -webkit-filter: drop-shadow(2px 1px 1px #14c5d9);
+  filter: drop-shadow(2px 1px 1px #14c5d9);
+}
+
+.intro-rabbit-chatbox {
+  position: absolute;
+  z-index: 1;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 100px;
+  background-color: white;
+  border: 3px solid;
+  /* borderRadius: '5px', */
+}
+
+#intro-rabbit-chatbox-text {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 60%;
+  line-height: 20px;
+  font-family: neodgm;
+  font-size: 18px;
+  color: #14a1d9;
+  white-space: normal;
+}
+
+.intro-user-chatbox {
+  position: absolute;
+  z-index: 1;
+  top: 60%;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 80px;
+  background-color: white;
+  border: 3px solid;
+  /* borderRadius: '5px', */
+}
+
+#intro-user-chatbox-text {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 80%;
+  line-height: 20px;
+  font-family: neodgm;
+  font-size: 18px;
+  color: #14a1d9;
+  white-space: normal;
+}
+
+#intro-talk-button {
+  position: absolute;
+  top: 57px;
+  right: 5px;
+}
+
+/* 인트로 버튼 스타일
+출처 - https://codepen.io/chancesq/pen/xxVGbrw */
+
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button-enter {
+  margin-top: 15px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-family: backto_1982;
+  font-size: 15px;
+  font-weight: bold;
+  color: #14a1d9;
+  background: white;
+  border: 2px solid #14a1d9;
+  box-shadow: 5px 5px 0 #14a1d9, -5px -5px 0 #14a1d9, -5px 5px 0 #14a1d9,
+    5px -5px 0 #14a1d9;
+  transition: 500ms ease-in-out;
+}
+
+.button-enter:hover {
+  box-shadow: 20px 5px 0 #14a1d9, -20px -5px 0 #14a1d9;
+}
+
+.button-enter:focus {
+  outline: none;
+}

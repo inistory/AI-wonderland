@@ -1,0 +1,76 @@
+@font-face {
+  font-family: light_p_7;
+  src: url(../../../fonts/light_pixel-7.ttf);
+}
+@font-face {
+  font-family: sb_pixel_7;
+  src: url(../../../fonts/small_bold_pixel-7.ttf);
+}
+@font-face {
+  font-family: backto_1982;
+  src: url(../../../fonts/BACKTO1982.TTF);
+}
+@font-face {
+  font-family: mini_pixel_7;
+  src: url(../../../fonts/mini_pixel-7.ttf);
+}
+.product-list-category-btn {
+  font-family: sb_pixel_7;
+  font-size: 27px;
+  color: #187fd9;
+}
+.product-list-timegram-btn {
+  font-family: sb_pixel_7;
+  font-size: 27px;
+  color: #14a1d9;
+}
+.product-list-card {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 16px);
+  height: auto;
+  border: 0.2rem solid;
+  border-radius: 0.5rem;
+  border-color: #187fd9;
+  padding: 3px;
+}
+.product-list-card-img {
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+}
+.product-list-card-p_price {
+  display: inline-flex;
+  padding: 2px;
+  font-family: light_p_7;
+  font-size: 12px;
+}
+.product-list-card-p_price-coin {
+  display: inline-flex;
+  width: 15px;
+  height: auto;
+  margin-left: 0.5rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+.product-list-card-p_name {
+  margin: 0.5rem;
+  font-family: light_p_7;
+  font-size: 10px;
+  color: #14a1d9;
+  display: inline-block;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-list-card-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.4rem;
+  margin-bottom: 0.2rem;
+  padding: 0.2rem;
+  width: 20%;
+  background-color: #14a1d9;
+  border-radius: 5rem;
+}

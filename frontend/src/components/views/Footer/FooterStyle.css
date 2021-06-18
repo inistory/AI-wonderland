@@ -1,0 +1,68 @@
+.footer {
+  padding-top: 25px;
+  background-color: #ffffff;
+  background-color: #f9f9f9;
+  padding: 13px 0 0;
+  width: 100%;
+}
+
+.footer .service_Name {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  font-size: 30px;
+  color: #5b5752;
+  font-family: 'sb_pixel';
+  padding: 13px 18px;
+  line-height: 1.43;
+  background-repeat: no-repeat;
+  background-position: right 18px center;
+}
+
+.footer .item_content label {
+  display: inline-block;
+  color: #bbb8b5;
+  margin-right: 7px;
+  line-height: 1.67;
+  font-size: 20px;
+  vertical-align: top;
+  font-family: 'sb_pixel';
+}
+
+.footer .item_content ul {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding: 13px 18px;
+}
+
+.footer .item_content li {
+  margin-bottom: 6px;
+}
+
+.footer .item_content span {
+  display: inline-block;
+  color: #5b5752;
+  line-height: 1.67;
+  font-size: 20px;
+  font-family: 'sb_pixel';
+}
+
+.copyright {
+  padding: 13px 18px;
+  font-size: 23px;
+  color: #bbb8b5;
+  line-height: 1.54;
+  font-family: 'sb_pixel';
+}
+
+.gitlab_address {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  font-size: 20px;
+  color: #5b5752;
+  font-family: 'sb_pixel';
+  line-height: 1.43;
+  padding: 13px 18px;
+}

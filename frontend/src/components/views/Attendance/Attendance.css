@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'neodgm';
+  src: url('../../../fonts/neodgm_code.ttf');
+}
+
+@font-face {
+  font-family: 'light_p';
+  src: url('../../../fonts/light_pixel-7.ttf');
+}
+
+@font-face {
+  font-family: 'sb_pixel';
+  src: url('../../../fonts/small_bold_pixel-7.ttf');
+}
+
+.title{
+  color: #187FD9;
+}
+
+.dates{
+  font-size: 22px;
+}
+.checkin{
+  background-color: #187FD9;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 4px;
+}
+
+.checkin:hover {
+  background-color:#14C5D9;
+  color: white;
+}
+
+.date-container {
+  min-height: 380px;
+}

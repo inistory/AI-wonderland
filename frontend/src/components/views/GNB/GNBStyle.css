@@ -1,0 +1,60 @@
+.gnb_container {
+  background-color: #ffffff;
+  height: 75px;
+  padding-top: 5px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: 20;
+  border-bottom: 2px solid #e9e8e2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.right_container {
+  width: 30%;
+  background-color: #1b1464;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 25px;
+  float: right;
+  color: white;
+}
+
+.right_container .coin_img {
+  width: 30px;
+  padding: 5px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+.left_container {
+  float: left;
+  padding: 8px;
+}
+
+.logo {
+  display: inline-block;
+  width: 40px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.logo_text {
+  display: inline-block;
+  object-fit: cover;
+  text-decoration: none;
+  font-family: 'light_p';
+  font-size: 90%;
+  padding-left: 4px;
+}
+
+.wallet {
+  padding: 15px 5px 5px 0px;
+  font-size: 13px;
+  font-family: 'light_p';
+  float: right;
+  text-align: center;
+}

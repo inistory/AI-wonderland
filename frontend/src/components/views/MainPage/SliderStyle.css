@@ -1,0 +1,78 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.MainSwiper .swiper-container {
+  width: 100%;
+  padding-bottom: 30%;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 12%);
+  margin-top: 40px;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.MainSwiper .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main_banner_info {
+  padding: 16px 18px 21px;
+  display: block;
+  position: relative;
+}
+
+.MainSwiper .swiper-pagination-bullet {
+  background: #fff !important;
+}
+
+.MainSwiper .swiper-button-next {
+  color: white;
+}
+
+.MainSwiper .swiper-button-prev {
+  color: white;
+}
+
+.slideInfo {
+  font-family: 'light_p';
+  color: #187fd9;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 133%;
+  padding-left: 0px;
+  font-size: 80%;
+}

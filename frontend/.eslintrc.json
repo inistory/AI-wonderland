@@ -1,0 +1,11 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["eslint:recommended", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": 0,
+    "no-undef": 0
+  },
+  // 0 이면 경고/알림 사라짐, 1 이면 경고만뜸, 2 빨간줄생성 }
+  "parser": "babel-eslint"
+}
