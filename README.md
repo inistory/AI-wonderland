@@ -8,3 +8,7 @@
 
 
 타게층 : 레트로 패션을 좋아하는 MZ 세대
+
+
+## Data preprocessing 
+[Data preprocessing Repo](https://github.com/inistory/amazon-fashion-data-description-generation)
