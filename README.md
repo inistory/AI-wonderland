@@ -17,14 +17,13 @@ Data preprocessing Repo : [amazon-fashion-data-description-generation](https://g
 1. Datasets : 아마존 상품&리뷰 metadata
 2. 기술 스택 및 라이브러리
 
-`GPT-2` `Scikit-learn` `TF-IDF` `Linear regression` `Keras` `TensorFlow` `Huggingface` `React` `Django` `MariaDB`
 
 | 분류           | Tools                    | 목적                                   |
 |----------------|--------------------------|----------------------------------------|
-| Front-server   | React, recoil            | 웹 프론트 서버 구동                    |
-| Backend-env    | Docker                   | 배포 환경 세팅                         |
-| Backend-server | Django, MariaDB, MongoDB | 웹 백엔드 서버 구동, 상품 및 회원 정보 |
-| AI             | Tensorflow               | 데이터셋 분석 및 추천 로직 구현        |
+| Front-server   | `React`, `recoil`            | 웹 프론트 서버 구동                    |
+| Backend-env    | `Docker`                   | 배포 환경 세팅                         |
+| Backend-server | `Django`, `MariaDB`, `MongoDB` | 웹 백엔드 서버 구동, 상품 및 회원 정보 |
+| AI             | `GPT-2` `Scikit-learn` `TF-IDF` `Linear regression` `Keras` `TensorFlow` `Huggingface` | 데이터셋 분석 및 추천 로직 구현        |
 
 
 ## 5. 구현 기능
