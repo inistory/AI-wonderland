@@ -9,6 +9,8 @@
 
 타게층 : 레트로 패션을 좋아하는 MZ 세대
 
+### tools
+`GPT-2`, `Scikit-learn`, `TF-IDF`, `Linear regression`, `Keras`, `TensorFlo`, `Hugging face`, `Django`, `React`, `MariaDB`
 
 ## Data preprocessing 
 [Data preprocessing Repo](https://github.com/inistory/amazon-fashion-data-description-generation)
