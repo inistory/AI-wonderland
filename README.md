@@ -13,4 +13,4 @@
 `GPT-2` `Scikit-learn` `TF-IDF` `Linear regression` `Keras` `TensorFlow` `Huggingface` `React` `Django` `MariaDB`
 
 ## Data preprocessing 
-[Data preprocessing Repo](https://github.com/inistory/amazon-fashion-data-description-generation)
+Data preprocessing Repo : [amazon-fashion-data-description-generation](https://github.com/inistory/amazon-fashion-data-description-generation)
