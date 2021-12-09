@@ -1,18 +1,18 @@
 # AI-wonderland 
 
-### 1.소개
+## 1.소개
 - 프로젝트명 : AI Wonderland
 - 한 줄 소개 : 2000-2010년대(재해석 된) 쇼핑몰로의 시간 여행
 - 타게층 : 레트로 패션을 좋아하는 MZ 세대
 
-### 2.스토리보드
-### 3.tools
+## 2.스토리보드
+## 3.tools
 `GPT-2` `Scikit-learn` `TF-IDF` `Linear regression` `Keras` `TensorFlow` `Huggingface` `React` `Django` `MariaDB`
 
-### 4.Data preprocessing 
+## 4.Data preprocessing 
 Data preprocessing Repo : [amazon-fashion-data-description-generation](https://github.com/inistory/amazon-fashion-data-description-generation)
 
-### 5.프로젝트 구성
+## 5.프로젝트 구성
 
 1. Datasets : 아마존 상품&리뷰 metadata
 2. 기술 스택 및 라이브러리
@@ -23,7 +23,7 @@ Data preprocessing Repo : [amazon-fashion-data-description-generation](https://g
 | Backend-server | Django, MariaDB, MongoDB | 웹 백엔드 서버 구동, 상품 및 회원 정보 |
 | AI             | Tensorflow               | 데이터셋 분석 및 추천 로직 구현        |
 
-### 6. 구현 기능
+## 6. 구현 기능
 구현해야 하는 세부 기능들을 명세하고, 우선순위를 설정합니다. 이후 우선순위를 바탕으로 개발을 진행합니다.
 이후 구현된 기능에 알맞는 스크린샷, 영상 등을 추가합니다.
 필수 구현
