@@ -19,7 +19,7 @@ Data preprocessing Repo : [amazon-fashion-data-description-generation](https://g
 
 
 | 분류           | Tools                    | 목적                                   |
-|:----------------:|:--------------------------:|----------------------------------------|
+|:----------------:|:--------------------------|----------------------------------------|
 | Front-server   | `React`, `recoil`            | 웹 프론트 서버 구동                    |
 | Backend-env    | `Docker`                   | 배포 환경 세팅                         |
 | Backend-server | `Django`, `MariaDB`, `MongoDB` | 웹 백엔드 서버 구동, 상품 및 회원 정보 |
